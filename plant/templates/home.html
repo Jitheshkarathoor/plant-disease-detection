@@ -1,0 +1,667 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico ">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="{% static 'assets/style.css' %}">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="{% static 'assets/img/core-img/leaf.png' %}" alt="">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- ***** Top Header Area ***** -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: plantdisease@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +91 9495923285</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                                <!-- Language Dropdown -->
+                                <!--<div class="language-dropdown">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">USA</a>
+                                            <a class="dropdown-item" href="#">UK</a>
+                                           < <a class="dropdown-item" href="#">Bangla</a>
+                                            <a class="dropdown-item" href="#">Hindi</a>
+                                            <a class="dropdown-item" href="#">Spanish</a>
+                                            <a class="dropdown-item" href="#">Latin</a>>
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <!-- Login -->
+                               <!-- <div class="login">
+                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
+                                </div>-->
+                                <!-- Cart -->
+                                <!--<div class="cart">
+                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***** Navbar Area ***** -->
+        <div class="alazea-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                        <!-- Nav Brand -->
+                        <a href="#" class="nav-brand"><img src="{% static 'assets/img/core-img/logo2.png' %}" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Navbar Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="/home">Home</a></li>
+                                    <li><a href="/upload">Plant Prediction</a></li>
+                                   <!-- <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="shop.html">Shop</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                    <li><a href="cart.html">Shopping Cart</a></li>
+                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="portfolio.html">Portfolio</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                                    <li><a href="single-portfolio.html">Portfolio Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.html">Blog</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="single-post.html">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>-->
+                                    <li><a href="/upload1">Disease Prediction</a></li>
+                                    <!--<li><a href="portfolio.htm</a></li>-->
+                                   <li><a href="/contact">Contact</a></li>
+                                    <li><a href="/about">About</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <!--<div id="searchIcon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>-->
+
+                            </div>
+                            <!-- Navbar End -->
+                        </div>
+                    </nav>
+
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Type keywords &amp; press enter...">
+                            <button type="submit" class="d-none"></button>
+                        </form>
+                        <!-- Close Icon -->
+                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-post-slides owl-carousel">
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(/static/assets/img/bg-img/2.jpg);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <h2>Plants exist in the weather and light rays that surround them</h2>
+                                <p>Plant diseases and pernicious insects are a considerable threat in the agriculture sector. Therefore, early
+                                    detection and diagnosis of these diseases are essential.</p>
+                                    <div class="welcome-btn-group">
+                                        <a href="/upload" class="btn alazea-btn mr-30">PLANT PREDICTION</a>
+                                        <a href="/upload1" class="btn alazea-btn mr-30">DISEASE PREDICTION</a>
+                                       
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(/static/assets/img/bg-img/3.jpg);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-center">
+                                <h2>Plants exist in the weather and light rays that surround them</h2>
+                                <p>Plant diseases and pernicious insects are a considerable threat in the agriculture sector. Therefore, early
+                                    detection and diagnosis of these diseases are essential.</p>
+                                    <div class="welcome-btn-group">
+                                        <a href="/upload" class="btn alazea-btn mr-30">PLANT PREDICTION</a>
+                                        <a href="/upload1" class="btn alazea-btn mr-30">DISEASE PREDICTION</a>
+                                       
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Service Area Start ##### -->
+    <section class="our-services-area bg-gray section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>OUR SERVICES</h2>
+                        <p>We provide the perfect service for you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <div class="alazea-service-area mb-100">
+
+                        <!-- Single Service Area -->
+                        <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
+                            <!-- Icon -->
+                            <div class="service-icon mr-30">
+                                <img src="{% static 'assets/img/core-img/s1.png' %}" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="service-content">
+                                <h5>Plant detecion</h5>
+                                <p>This system detect the type of plants.It is helpful to analyse the diseases affect the plants.</p>
+                            </div>
+                        </div>
+
+                        <!-- Single Service Area -->
+                        <div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="300ms">
+                            <!-- Icon -->
+                            <div class="service-icon mr-30">
+                                <img src="{% static 'assets/img/core-img/s2.png' %}" alt="">
+                            </div>
+                            <!-- Content -->
+                            <div class="service-content">
+                                <h5>Plant disease classification</h5>
+                                <p>This system detect the plant disease with its severity.It is helpful to take neccessary cure methods and treatments to cure the diseases. </p>
+                            </div>
+                        </div>
+
+
+                        <!-- Single Service Area -->
+                        <!--<div class="single-service-area d-flex align-items-center wow fadeInUp" data-wow-delay="500ms">
+                            <!-- Icon -->
+                            <!--<div class="service-icon mr-30">
+                                <img src="{% static 'assets/img/core-img/s3.png' %}" alt="">
+                            </div>
+                            <!-- Content -->
+                            <!--<<div class="service-content">
+                                <h5>Suggest cure methods</h5>
+                                <p>...</p>
+                            </div>
+                        </div>-->
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="alazea-video-area bg-overlay mb-100">
+                        <img src="{% static 'assets/img/bg-img/23.jpg' %}" alt="">
+                        <!--<a href="https://www.youtube.com/watch?v=LoWIqizH1m4" class="video-icon">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Service Area End ##### -->
+
+    <!-- ##### About Area Start ##### -->
+    <!--<section class="about-us-area section-padding-100-0">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading 
+                    <div class="section-heading">
+                        <h2>ABOUT US</h2>
+                        <p>We are leading in the plants service fields.</p>
+                    </div>
+                    <p>The extensive commercialization of agriculture has
+                        greatly affected our environment. One of the biggest concerns in the
+                        field of agriculture is the detection of plant diseases. Early detection of
+                        diseases helps in preventing the widespread of disease among other
+                        plants, thus preventing substantial economic losses.</p>
+
+                    <!-- Progress Bar Content Area 
+                    <div class="alazea-progress-bar mb-50">
+                        <!-- Single Progress Bar 
+                        <div class="single_progress_bar">
+                            <p>Office plants</p>
+                            <div id="bar1" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="80"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar 
+                        <div class="single_progress_bar">
+                            <p>Field manager</p>
+                            <div id="bar2" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="70"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar 
+                        <div class="single_progress_bar">
+                            <p>Landscape design</p>
+                            <div id="bar3" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="85"></span>
+                            </div>
+                        </div>
+
+                        <!-- Single Progress Bar 
+                        <div class="single_progress_bar">
+                            <p>Garden Care</p>
+                            <div id="bar4" class="barfiller">
+                                <div class="tipWrap">
+                                    <span class="tip"></span>
+                                </div>
+                                <span class="fill" data-percentage="65"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="alazea-benefits-area">
+                        <div class="row">
+                            <!-- Single Benefits Area 
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b1.png" alt="">
+                                    <h5>Quality Products</h5>
+                                    <p>...</p>                                 </div>
+                            </div>
+
+                            <!-- Single Benefits Area 
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b2.png" alt="">
+                                    <h5>Perfect Service</h5>
+                                    <p>...</p>                                </div>
+                            </div>
+
+                            <!-- Single Benefits Area 
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b3.png" alt="">
+                                    <h5>100% Natural</h5>
+                                    <p>...</p>                                </div>
+                            </div>
+
+                            <!-- Single Benefits Area 
+                            <div class="col-12 col-sm-6">
+                                <div class="single-benefits-area">
+                                    <img src="img/core-img/b4.png" alt="">
+                                    <h5>Environmentally friendly</h5>
+                                    <p>...</p>                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="border-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- ##### About Area End ##### -->
+
+    <!-- ##### Portfolio Area Start ##### -->
+    <section class="alazea-portfolio-area section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading text-center">
+                        <h2>DATASET IMAGES</h2>
+                        
+                </div>
+            </div>
+        </div>
+
+        
+
+            <div class="row alazea-portfolio">
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url('/static/assets/img/bg-img/16.jpg');"></div>
+                    <!-- Portfolio Hover Text -->
+                    
+                    <div class="portfolio-hover-overlay">
+                        <a href="/tomato"  class="btn alazea-btn active"></a>
+                            
+    
+                    </div>
+                </div>
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url('/static/assets/img/bg-img/17.jpg');"></div>
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a href="/chilli"  class="btn alazea-btn active"></a>
+                            
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp" data-wow-delay="300ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url('/static/assets/img/bg-img/18.jpg');"></div>
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a href="/rice"  class="btn alazea-btn active"></a>
+                           
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Single Portfolio Area -->
+                <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp" data-wow-delay="400ms">
+                    <!-- Portfolio Thumbnail -->
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url('/static/assets/img/bg-img/19.jpg');"></div>
+                    <!-- Portfolio Hover Text -->
+                    <div class="portfolio-hover-overlay">
+                        <a href="/corn"  class="btn alazea-btn active"></a>
+                            
+                        </a>
+                    </div>
+                </div>
+
+               
+
+               
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Portfolio Area End ##### -->
+
+    <!-- ##### Testimonial Area Start ##### -->
+    <section class="testimonial-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-slides owl-carousel">
+
+                        <!-- Single Testimonial Slide -->
+                        <div class="single-testimonial-slide">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-thumb">
+                                        <img src="{% static 'assets/img\bg-img\13.jpeg' %}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="testimonial-content">
+                                        <!-- Section Heading -->
+                                        <div class="section-heading">
+                                            <h2>TESTIMONIAL</h2>
+                                            <p>Some kind words from clients about Plants</p>
+                                        </div>
+                                        <p> This is an wonderfull work in the agriculture field.This project help the farmers to protect their plants from severel diseases.</p>
+                                        <div class="testimonial-author-info">
+                                            <h6>Jithesh C P</h6>
+                                            <p>Post Graduate Student(M.Sc Computer Science)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        </div>
+
+                       
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonial Area End ##### -->
+
+    <!-- ##### Product Area Start ##### -->
+   <section class="new-arrivals-products-area bg-gray section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <!--<div class="section-heading text-center">
+                        <h2>NEW ARRIVALS</h2>
+                        <p>We have the latest products, it must be exciting for you</p>
+                    </div>-->
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Single Product Area 
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Product Image 
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/9.jpg" alt=""></a>
+                            <!-- Product Tag 
+                            <div class="product-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info 
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area 
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+                        <!-- Product Image 
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/10.jpg" alt=""></a>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info 
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area 
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Product Image 
+                        <div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/11.jpg" alt=""></a>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info 
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- Single Product Area -->
+                <!--<div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">-->
+                        <!-- Product Image -->
+                       <!--<div class="product-img">
+                            <a href="shop-details.html"><img src="img/bg-img/12.jpg" alt=""></a>-->
+                            <!-- Product Tag -->
+                            <!--<div class="product-tag sale-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>-->
+                        <!-- Product Info -->
+                       <!-- <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>-->
+
+             
+    <!-- ##### Product Area End ##### -->
+
+    <!-- ##### Blog Area Start ##### -->
+   
+               
+        <!-- Footer Bottom Area -->
+      
+                       
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{% static 'assets/js/jquery/jquery-2.2.4.min.js' %}"></script>
+    <!-- Popper js -->
+    <script src="{% static 'assets/js/bootstrap/popper.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'assets/js/bootstrap/bootstrap.min.js' %}"></script>
+    <!-- All Plugins js -->
+    <script src="{% static 'assets/js/plugins/plugins.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'assets/js/active.js' %}"></script>
+</body>
+
+</html>

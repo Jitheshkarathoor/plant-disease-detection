@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    {% load widget_tweaks %}
+<head>
+	<meta charset="utf-8">
+	<!-- <title>Form-v9 by Colorlib</title> -->
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="{% static 'assets2/css/nunito-font.css' %}">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="{% static 'assets2/css/style.css' %}"/>
+</head>
+<body class="form-v9">
+	<div class="page-content">
+		<div class="form-v9-content" style="background-image: url('/static/assets2/images/a.jpeg')">
+			<form class="form-detail" action="" method="POST">
+                {% csrf_token %}
+				<h2>Login Form</h2>
+				<div class="form-row-total">
+					<div class="form-row">
+                    {% render_field form.username class="form-control" placeholder="Username" %}					
+                    </div>
+					<div class="form-row">
+                        {% render_field form.password class="form-control" placeholder="Password" %}					
+					</div>
+                  
+				</div>
+				
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="LOGIN">
+					<center><h3>New user :<a href="/register" style="color:white;">REGISTER</a></h3></center>
+				</div>
+			</form>
+		</div>
+	</div>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
